@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
 import Filmpage from "./Components/Filmpage";
-import './App.css';
+import "./App.css";
 import FilmList from "./Components/FilmList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-
 
 function App() {
   return (
@@ -14,8 +12,7 @@ function App() {
         <Route path="/film/:id" component={Filmpage}></Route>
       </Switch>
     </Router>
-
-  )
+  );
 }
 
 export default App;
